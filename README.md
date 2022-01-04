@@ -1,5 +1,5 @@
 # Python interactive plot opener
-Utility for loading pickled Python interactive plots from disk. Allows Python code to be run on one machine (server) and plots to open on another (client). This is especially useful when the server does not support a GUI (e.g. Python running on WSL on Windows 10).
+Utility for loading pickled Python interactive plots from disk. Allows Python code to be run on one machine (server) and plots to be opened on another (client) machine. This is especially useful when the server does not support a GUI (e.g. Python running on WSL on Windows 10).
 
 ### Features
 - Drag and drop support.
