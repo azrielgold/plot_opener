@@ -17,6 +17,8 @@ Utility for loading pickled Python interactive plots from disk. Allows Python co
     with open('my_plot.pkl', 'wb') as pickle_file:
         pickle.dump(plt.gcf(), pickle_file)
     ```
+### Screenshot
+![](screenshot.png)
 
 ### Limitations
 - Server and client may need to use the same version of matplotlib and/or python.
