@@ -8,7 +8,7 @@ Utility for loading pickled Python interactive plots from disk. Allows Python co
 
 ### Usage
 - Requires matplotlib and pyqt5 packages running with python3.
-- On Windows, can be run as a single executable file by associating *.pyw files with pythonw.exe.
+- On Windows, the tool can be launched as an executable file without using a terminal window by first associating *.pyw files with `pythonw.exe`. On Linux, it can be detatched from the terminal by executing `nohup python3 plot_opener.pyw > /dev/null 2>&1&`.
 - Server should save plot files as follows:
     ```python
     import pickle
